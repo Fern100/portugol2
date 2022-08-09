@@ -1,13 +1,14 @@
 programa
-{	
+{	/*Faça um programa que pegue um número do teclado e calcule a soma de todos os
+números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
+1+2+3+4+5+6+7=28.	
+	 */
 	funcao inicio()
-	{
-		inteiro numero, numero2=0
+	{inteiro numero, soma, cont=0
 	escreva("digite um numero: ")
 	leia(numero)
-	faca{numero *= numero
-	escreva("a fatoração disso é: " + numero)}
-	enquanto(numero <= 9 e numero2>0)
+	faca{
+	escreva("a soma até esse numero é: " + soma)}enquanto(numero < 0)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 291; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
